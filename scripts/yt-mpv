@@ -1,0 +1,6 @@
+#!/bin/bash
+
+video=$(xclip -o)
+dunstify "Watching: $video"
+
+mpv --ytdl-format=bestvideo+bestaudio/best --af=rubberband=pitch-scale=0.981818181818181 "$video"

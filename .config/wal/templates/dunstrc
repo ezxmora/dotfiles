@@ -1,0 +1,40 @@
+[global]
+    width = 0
+    height = 200
+    offset = 30x50
+    gap_size = 2
+    padding = 24
+    horizontal_padding = 24
+    frame_width = 0
+    idle_threshold = 120
+    font = Hack 12
+    alignment = center
+    word_wrap = yes
+    #format = "<b>%s</b>: %b"
+    markup = full
+
+[urgency_low]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[urgency_normal]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[urgency_critical]
+    background = "{background}"
+    foreground = "{foreground}"
+
+[volume control]
+    stack_tag = "volume"
+    background = "{background}"
+    foreground = "{foreground}"
+    highlight = "{color2}"
+
+[brightness control]
+    stack_tag = "brightness"
+    background = "{background}"
+    foreground = "{foreground}"
+    highlight = "{color2}"
+
+# vim:ft=cfg
